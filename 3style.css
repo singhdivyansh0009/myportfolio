@@ -4,7 +4,7 @@
         color: aliceblue;
         position: absolute;
         margin-left: 8%;
-        margin-top: 10em;
+        margin-top: 7em;
         width: 60vw;
         height: 30em;
         border-radius: 10px;
@@ -25,9 +25,9 @@
     box-shadow: 2px 2px 10px red;
     background: red;
     position: absolute;
-    width: 20vw;
+    width: 25vw;
     height: 25em;
-    margin-left: 72%;
+    margin-left: 62%;
     margin-top: 13em;
     border-radius: 3vw;
 }
