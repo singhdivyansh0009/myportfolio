@@ -1,0 +1,242 @@
+
+/* For hackerrank division */
+#hackerrank{
+    display: block;
+    background:linear-gradient(rgb(196, 14, 14) 0%, 50%, rgba(8, 5, 5, 0.61) 100%);; 
+    color: aliceblue;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 15em;
+    width: 25vw;
+    height: 20em;
+    border-radius: 10px;
+    padding: 2px 5px;
+}
+#hackerrank h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-top: 0.5em;
+    margin-left: 3.5vw;
+}
+#hackerrank a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 8px 8px ;
+    position: absolute;
+    margin-left: 9.2vw;
+    margin-top: 4.2em;
+    font-family: cursive;
+    box-shadow: 1px 1px 5px red;
+
+}
+#hackerrank a:hover{
+    background: red;
+}
+#hackerrank li{
+    list-style: none;
+    font-size: 20px;
+    font-family: arial;
+    margin-top: 0.7em;
+    margin-left: 3.5vw;
+}
+
+/* For Codingninja division */
+#codingninja{
+    display: block;
+    background:linear-gradient(rgb(196, 14, 14) 0%, 50%, rgba(8, 5, 5, 0.61) 100%);; 
+    color: aliceblue;
+    position: absolute;
+    margin-left: 37%;
+    margin-top: 15em;
+    width: 25vw;
+    height: 20em;
+    border-radius: 10px;
+    padding: 2px 5px;
+}
+#codingninja h1{
+    font-family: sans-serif;
+    font-size: 32px;
+    margin-top: 0.5em;
+    margin-left: 3.5vw;
+}
+#codingninja a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 8px 8px ;
+    position: absolute;
+    margin-left: 9.2vw;
+    margin-top: 1.6em;
+    font-family: cursive;
+    box-shadow: 1px 1px 5px red;
+
+}
+#codingninja a:hover{
+    background: red;
+}
+#codingninja #cn{
+    margin-top: 1em;
+}
+#codingninja li{
+    list-style: none;
+    font-size: 20px;
+    font-family: arial;
+    margin-top: 0.7em;
+    margin-left: 3.5vw;
+}
+
+/* For certification division */
+#certificate{
+    display: block;
+    background:linear-gradient(rgb(196, 14, 14) 0%, 50%, rgba(8, 5, 5, 0.61) 100%);; 
+    color: aliceblue;
+    position: absolute;
+    margin-left: 68%;
+    margin-top: 15em;
+    width: 25vw;
+    height: 20em;
+    border-radius: 10px;
+    padding: 2px 5px;
+}
+#certificate h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-top: 0.5em;
+    margin-left: 3.5vw;
+}
+#certificate a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 8px 8px ;
+    position: absolute;
+    margin-left: 9.2vw;
+    margin-top: 4.2em;
+    font-family: cursive;
+    box-shadow: 1px 1px 5px red;
+
+}
+#certificate a:hover{
+    background:red;
+}
+#certificate li{
+    list-style: none;
+    font-size: 20px;
+    font-family: arial;
+    margin-top: 0.7em;
+    margin-left: 3.5vw;
+}
+@media (max-width:880px){
+    #hackerrank{
+        padding: 0;
+        width: 88vw ;
+        margin:120% 5%;
+    }
+    #certificate{
+        width: 88vw ;
+        margin:120% 5%; 
+    }
+    #codingninja{
+        width: 88vw;
+        margin: 70% 5%;
+    }
+    #hackerrank h1{
+        margin: 0.3em 25vw;
+    }
+    #codingninja h1{
+        margin: 0.3em 25vw;
+    }
+    #certificate h1{
+        margin: 0.3em 25vw;
+    }
+    .data ul{
+        margin: 0.5em 25vw;
+    }
+    #hackerrank a{
+        margin: 3em 37vw;
+    }
+    #codingninja a{
+        margin: 1em 37vw;
+    }
+    #certificate a{
+        margin: 3em 37vw;
+    }
+}
+@media (max-width:580px)
+{
+    #hackerrank{
+        padding: 0;
+        width: 88vw ;
+        margin:20% 5%;
+    }
+    #certificate{
+        width: 88vw ;
+        margin:170% 5%; 
+    }
+    #codingninja{
+        width: 88vw;
+        margin: 95% 5%;
+    }
+    #hackerrank h1{
+        margin: 0.3em 18vw;
+        
+    }
+    #codingninja h1{
+        margin: 0.3em 18vw;
+    }
+    #certificate h1{
+        margin: 0.3em 18vw;
+    }
+    .data ul{
+        margin: 0.5em 20vw;
+    }
+    #hackerrank a{
+        margin: 3em 35vw;
+    }
+    #codingninja a{
+        margin: 1em 35vw;
+    }
+    #certificate a{
+        margin: 3em 35vw;
+    }
+}
+@media (max-width:480px)
+{
+    #hackerrank{
+        padding: 0;
+        width: 88vw ;
+        margin:40% 5%;
+    }
+    #certificate{
+        width: 88vw ;
+        margin:260% 5%; 
+    }
+    #codingninja{
+        width: 88vw;
+        margin: 150% 5%;
+        
+    }
+    #hackerrank h1{
+        margin: 0.3em 16vw;
+        font-size: 25px;
+        
+    }
+    #codingninja h1{
+        margin: 0.3em 15vw;
+        font-size: 25px;
+    }
+    #certificate h1{
+        margin: 0.3em 16vw;
+        font-size: 25px;
+    }
+    .data ul{
+        margin: 1em 3vw;
+    }
+    #hackerrank a{
+        margin: 3em 30vw;
+    }
+    #codingninja a{
+        margin: 1em 30vw;
+    }
+    #certificate a{
+        margin: 3em 30vw;
+    }
+}
